@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 150px;
+}
+
+#header-title {
+  color: orangered;
+}
+
+#prompt p {
+  color: hsl(0, 0%, 25%);
+}
+
+#name-input {
+  padding: 5px;
+  font-size: 17px;
+}
+
+#fruit-prompt {
+  margin-top: 20px;
+}
+
+.fruit-op {
+  display: inline-block;
+  text-align: start;
+}
+
+#ctn-btn {
+  margin-top: 10px;
+  background-color: hsl(16, 100%, 50%);
+  color: white;
+  padding: 7px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+#ctn-btn:hover {
+  background-color: hsl(16, 100%, 75%);
+}
+
+#display-msg {
+  display: none;
+  padding: 0 200px;
+}
+
+#display-msg h1 {
+  font-size: 50px;
+  color: hsl(16, 100%, 50%);
+}
+
+#display-msg h3 {
+  color: hsl(0, 0%, 25%);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#display-msg p {
+  text-align: start;
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  border: 1px solid hsl(16, 100%, 50%);
+  border-radius: 5px;
+}
+
+#display-error {
+  display: none;
+}
+
+/* 
+#header-title,
+#prompt,
+#fruit-prompt,
+#display-msg {
+  display: none;
+} */
