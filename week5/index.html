@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastering JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="header-title">Welcome to mastering JS concepts</h1>
+  </header>
+  <section id="prompt">
+    <p>Please answer the following questions: </p>
+    <label for="name">What is your name?</label>
+    <input type="text" name="name" id="name-input">
+  </section>
+  <section id="fruit-prompt">
+    <label for="fruit-container">Pick at least one fruit you like: </label>
+    <br>
+    <div class="fruit-op">
+      <input type="checkbox" id="fruit-op" value="mango"><span>Mango</span>
+      <br>
+      <input type="checkbox" id="fruit-op" value="pineapple"><span>Pineapple</span>
+      <br>
+      <input type="checkbox" id="fruit-op" value="orange"><span>Orange</span>
+      <br>
+      <input type="checkbox" id="fruit-op" value="apple"><span>Apple</span>
+      <br>
+      <input type="checkbox" id="fruit-op" value="banana"><span>Banana</span>
+    </div>
+    <br>
+    <button type="button" id="ctn-btn">Continue</button>
+  </section>
+  <section id="display-msg">
+    <h1 id="hello-usr"></h1>
+    <h3 id="fruitdisplay">Here are some fun facts about the fruit/s you like😁</h3>
+  </section>
+  <section id="display-error">
+    <p>Please provide a name</p>
+    <a href="./index.html">Back</a>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
